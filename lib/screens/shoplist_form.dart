@@ -10,14 +10,6 @@ class ShopFormPage extends StatefulWidget {
     State<ShopFormPage> createState() => _ShopFormPageState();
 }
 
-class ShopItem {
-  final String name;
-  final IconData icon;
-
-  ShopItem(this.name, this.icon);
-}
-
-
 class _ShopFormPageState extends State<ShopFormPage> {
     final _formKey = GlobalKey<FormState>();
     String _name = "";
